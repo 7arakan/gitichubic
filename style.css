@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(83, 83, 83);
+}
+
+.block{
+    padding-top: 20px;
+    margin: 0 auto;
+    height: 300px;
+    width: 400px;
+    border-radius: 15px;
+    background: rgb(12, 12, 12);
+    border: 1px solid black;
+}
+.gif{
+    opacity: 0.7;
+    margin: 0 auto;
+    height: 60%;
+    width: 90%;
+    border-radius: 10px;
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/4095452832468721867/3141025FA677D0976ECF44D3FBC801714CCA0114/?imw=512&amp;imh=388&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true');
+    background-size: 100% 100%;
+    border: 1px solid black;
+}
+.but{ margin-top: 10px;
+    margin-left: 5%;
+    opacity: 0.7;
+    height: 10%;
+    width: 30%;
+    border-radius: 10px;
+    background: #927862;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    padding: 5px;
+}
+.but1{
+    margin-left: 4%;
+    opacity: 0.7;
+    height: 10%;
+    width: 30%;
+    border-radius: 10px;
+    background: #927862;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    padding: 5px;
+}
+.but2{
+    transform: translate(0px , -4px);
+    margin-left: 4%;
+    opacity: 0.7;
+    height: 10%;
+    width: 20%;
+    border-radius: 10px;
+    background: #927862;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    padding: 5px;
+}
+.like{
+    opacity: 0.7;
+    height: 100%;
+    width: 35%;
+    background-size: 100% 100%;
+    background-image: url('https://spagalaxy.com.ua/pub/media/wysiwyg/like-icon-png-0.jpg');
+}
+.numb{
+    margin-top: -18px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: 3;
+    opacity: 0.7;
+    height: 20px;
+    width: 50px;
+    font-size: 20px;
+}
+.like1{
+    transform: rotate(180deg);
+    opacity: 0.7;
+    height: 100%;
+    width: 35%;
+    background-size: 100% 100%;
+    background-image: url('https://spagalaxy.com.ua/pub/media/wysiwyg/like-icon-png-0.jpg');
+}
+.numb1{
+    margin-top: -18px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: 3;
+    opacity: 0.7;
+    height: 20px;
+    width: 50px;
+    font-size: 20px;
+}
